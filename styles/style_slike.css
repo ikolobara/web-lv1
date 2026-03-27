@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+body {
+  font-family: 'Abel', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a.image-popup-vertical-fit {
+  cursor: -webkit-zoom-in;
+}
+
+.img-gallery-magnific {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.magnific-img {
+  width: 20%;
+  min-width: 200px;
+  border-radius: 10px;
+}
+
+.magnific-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: 0.3s ease box-shadow 0.3s ease;
+}
+
+.magnific-img:hover img {
+  transform: scale(1.07);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.magnific-img {
+  position: relative;
+}
+
+.magnific-img img {
+  transition: all 0.3s ease;
+}
+
+
+
+.galerija h1 {
+
+  color: darkblue;
+  font-size: 2rem;
+  text-align: center;
+}
